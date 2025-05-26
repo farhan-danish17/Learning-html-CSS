@@ -1,0 +1,9 @@
+#btn:hover {
+    color: hsl(255, 30%, 70%);
+    background-color: black;
+}
+
+.abc:hover {
+    color: #000;
+    background-color: pink;
+}

@@ -95,7 +95,35 @@ a {
   color: #fff;
   width: 200px;
   text-align: center;
-  /*?TRANSITION CODE STARTS HERE*/
+  /*?TRANSITIONCODESTARTSHERE*/
+  /* transition-property: width, color, background-color; */
+  /* transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 2s; */
+  transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+}
+
+.hero-content a:hover {
+  background-color: blue;
+  color: #fff;
+  width: 400px;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 19px 38px,
+    rgba(255, 255, 255, 0.5) 0px 15px 12px;
+}
+
+img {
+  transition: scale 1s linear;
+  -webkit-transition: scale 1s linear;
+  -moz-transition: scale 1s linear;
+  -ms-transition: scale 1s linear;
+  -o-transition: scale 1s linear;
+}
+img:hover {
+  scale: 1.2;
 }
 
 /** ------------------------------------- -->

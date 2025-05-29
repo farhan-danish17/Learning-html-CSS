@@ -19,11 +19,22 @@ section {
   height: 100vh;
   /* background-image: radial-gradient(circle, red 20%, yellow 40%, green 40%); */
   /* background-image: repeating-radial-gradient(#ff5733, #ffc300, #a8df8e 250px); */
+  background: radial-gradient(
+    circle at center,
+    #ff5733 0%,
+    #ffc300 20%,
+    #ff5733 40%,
+    #2980b9 60%,
+    #33ff57 80%,
+    #2980b9 100%
+  );
 }
 
 /*? Differently Spaced Color Stops */
+/* background-image: radial-gradient(red 30%, yellow 60%, green 10%); */
 
 /*? Set the Shape */
+/* The shape parameter defines the shape. It can take the value circle or ellipse. The default value is ellipse. */
 
 /**-----------------------
 /** Interview Question  
@@ -33,3 +44,12 @@ section {
 /* background-image: repeating-radial-gradient(#ff5733, #ffc300 , #A8DF8E ); */
 
 /*? 2: Create a CSS-only radial gradient that creates a circular pattern of colors with smooth transitions between them. */
+/* background: radial-gradient(
+    circle at center,
+    #ff5733 0%,
+    #ffc300 20%,
+    #ff5733 40%,
+    #2980b9 60%,
+    #33ff57 80%,
+    #2980b9 100%
+  ); */

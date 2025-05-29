@@ -24,10 +24,41 @@
         place-items: center;
         background-color: #191825;
       }
+      h1 {
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        font-size: 96px;
+        text-shadow: -1px 2px 3px rgba(236, 247, 76, 0.2);
+        position: relative;
+      }
+      h1::before {
+        content: "SUBSCRIBE...";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        color: #e9b824;
+        text-transform: uppercase;
+        border-right: 2px solid #e9b824;
+        overflow: hidden;
+        animation: textreveal 2s linear infinite;
+      }
+
+      @keyframes textreveal {
+        0% {
+          width: 0;
+        }
+        50% {
+          width: 100%;
+        }
+        100% {
+          width: 0;
+        }
+      }
     </style>
   </head>
   <body>
-    <!-- Hey there! If you're enjoying my content and find my world-class CSS course valuable, I'd love your support. Please consider subscribing to THAPA TECHNICAL: https://www.youtube.com/thapatechnical. Our goal is to reach 1 million subscribers, and your subscription, likes, and sharing with friends can make a big difference. Thanks for being a part of our community!" 🚀🙌 -->
     <h1>SUBSCRIBE...</h1>
   </body>
 </html>

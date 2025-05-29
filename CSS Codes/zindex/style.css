@@ -59,6 +59,30 @@ body {
   place-items: center;
   font-size: 3.2rem;
   color: #003180;
+
+  position: absolute;
+}
+
+.child:nth-child(2),
+.child:nth-child(4) {
+  background: linear-gradient(to right, #3cd3ad, #4cb8c4);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.parent-div {
+  position: relative;
+}
+
+.child-2 {
+  z-index: 1;
+}
+
+.child-3 {
+  z-index: 2;
+}
+
+.child-1 {
+  z-index: 3;
 }
 
 /** ------------------------------------- -->

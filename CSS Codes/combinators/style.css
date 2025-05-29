@@ -94,4 +94,36 @@ img {
   -o-border-radius: 5px;
 }
 
+.content-1,
+.content-2 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+li {
+  list-style: none;
+  font-size: 48px;
+}
+
 /** --------------------------------- */
+
+.content-1 ul p {
+  font-weight: bold;
+  color: red;
+}
+
+.content-1 ul li {
+  color: green;
+}
+
+.content-1 > ul > li {
+  color: brown;
+}
+
+.content-1 ul p + li {
+  color: pink;
+}
+
+.content-1 ul p ~ li {
+  color: purple;
+}

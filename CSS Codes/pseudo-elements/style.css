@@ -58,13 +58,45 @@ body {
 }
 
 /* Before Pseudo element  */
+.hero-content h1::before {
+  /* content: "THAPA TECHNICAL"; */
+  content: "\f121";
+  font-family: "font awesome 6 free";
+  position: absolute;
+  top: -18px;
+  font-size: 24px;
+  letter-spacing: 6px;
+  color: rgb(255, 204, 112);
+}
 
 /* After Pseudo elements  */
+.hero-content h1::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  border: 2px solid #ae445a;
+  width: 60%;
+}
 
 .hero-content p {
   font-size: 18px;
   letter-spacing: 1px;
   margin: 20px 0 40px 0;
+}
+
+.hero-content p::first-letter {
+  font-size: 48px;
+  color: #ae445a;
+  font-weight: bold;
+}
+
+.hero-content p::first-line {
+  text-decoration: underline;
+}
+
+.hero-content p::selection {
+  background-color: rgba(255, 204, 112);
 }
 
 img {

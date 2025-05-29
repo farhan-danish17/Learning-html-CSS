@@ -98,3 +98,29 @@ h1 {
   /* border-inline: 5px solid yellow; */
   border-block: 5px solid red;
 }
+
+.hero-content {
+  & h1 {
+    text-align: left;
+    font-size: 54px;
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 0%;
+    /*&:;
+    :before ;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+{
+      content: "*";
+    } */
+  }
+  & p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 2rem 0 4rem 0;
+  }
+}

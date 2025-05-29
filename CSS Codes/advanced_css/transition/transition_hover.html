@@ -32,6 +32,32 @@
         background-color: #4861ec;
         box-shadow: 0 0 0 15px #353f6d;
         border-radius: 50%;
+        transition: all 5s;
+      }
+
+      .box:nth-child(1):hover {
+        transition-timing-function: ease;
+        translate: 90vw 0;
+        /* new css feature  */
+      }
+
+      /* Second box */
+      .box:nth-child(2):hover {
+        transform: translateX(90vw);
+        transition: 5s ease-in;
+      }
+
+      /* Third box */
+      .box:nth-child(3):hover {
+        background-color: #4bc77d;
+        transform: translateX(90vw);
+        transition: 5s ease-in-out;
+      }
+
+      .box:nth-child(4):hover {
+        background-color: #4bc77d;
+        transform: translateX(90vw);
+        transition: 5s linear;
       }
 
       /* First box */

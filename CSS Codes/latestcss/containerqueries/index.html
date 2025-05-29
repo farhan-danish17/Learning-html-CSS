@@ -38,6 +38,11 @@ container-type: inline-size; -->
         }
       }
 
+      .container {
+        container-type: inline-size;
+        container-name: changelayout;
+      }
+
       img {
         width: 100%;
         height: auto;
@@ -51,6 +56,22 @@ container-type: inline-size; -->
         font-size: 32px;
         text-shadow: -3px 10px 10px rgba(249, 141, 141, 0.2);
         animation: floating 2s linear infinite alternate;
+      }
+
+      /* @keyframes mariorub {
+        
+      } */
+
+      @container changelayout (width <= 600px) {
+        .container div {
+          grid-template-columns: 1fr;
+        }
+
+        h1 {
+          color: #ffb000;
+          text-transform: uppercase;
+          padding: 20px 0;
+        }
       }
 
       @media (width <= 600px) {

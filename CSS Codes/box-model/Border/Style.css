@@ -1,0 +1,42 @@
+
+
+
+html {
+  /* font-size: 62.5%; */
+  font-family: "Urbanist", sans-serif;
+}
+
+#main-heading {
+  font-size: 64px;
+  color: #1e1403;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+
+.section-border {
+  width: 1000px;
+  color: #fff;
+ 
+}
+
+
+div {
+  width: 500px;
+  height: 300px;
+  background-color: #5e9de9;
+
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}

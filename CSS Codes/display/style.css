@@ -89,6 +89,32 @@ p {
   margin-bottom: 24px;
 }
 
+a {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+  /* width: 500px; */
+  /* height: 100px; */
+  padding: 15px 36px;
+  border: 1px solid red;
+  margin-top: 100px;
+  margin-right: 30px;
+  /* display: inline-block; */
+  display: block;
+}
+
+/* this is just to for styling th background */
+p:nth-of-type(2),
+a:nth-of-type(2),
+.inline-block-elem:last-child {
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  display: none;
+}
+
 /** ------------------------------------- -->
 /**  INTERVIEW QUESTIONS  
 /** ---------------------------------------- -->

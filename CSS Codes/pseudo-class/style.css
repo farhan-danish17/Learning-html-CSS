@@ -134,6 +134,22 @@ li {
   color: #f31559;
 }
 
+/* .content-1:first-child {
+  color: red;
+} */
+
+/* .content-1 ul:first-child {
+  color: Red;
+} */
+
+.content-1 p:first-child {
+  color: red;
+}
+
+.content-1 p:last-child {
+  color: blue;
+}
+
 /** ------------------------------------- -->
 /** Important Notes
 /** ---------------------------------------- --> */
@@ -143,6 +159,30 @@ li {
 
 /* The :first-child pseudo-class works similarly to :last-child, but it selects the first child element within its parent. Just like :last-child, it will only select an element if it's the first child and not if there are other elements before it within the same parent. */
 
+/* .content-1 li:nth-of-type(1) {
+  color: red;
+} */
+
+/* .content-1 li:first-of-type {
+  color: blue;
+} */
+
+.content-1 li:last-of-type {
+  color: blue;
+}
+
+.content-1 li:nth-of-type(2) {
+  color: green;
+}
+
+.content-1 li:nth-child(odd) {
+  color: red;
+}
+
 /** ------------------------------------- -->
 /** Let's learn something new
 /** ---------------------------------------- --> */
+
+.p-class:nth-child(even) {
+  color: red;
+}
